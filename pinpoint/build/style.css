@@ -1,0 +1,326 @@
+body {
+  background: gray;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#accessing {
+  background-color: blue;
+  box-shadow: 0 0 10px #555;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 52px;
+  height: 52px;
+  width: 188px;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+#poster {
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/youre-in-charge.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1200px) {
+  #poster {
+    background-image: url('../images/youre-in-charge.jpg');
+  }
+}
+
+@media screen and (min-height: 650px) {
+  #poster {
+    background-image: url('../images/youre-in-charge.jpg');
+  }
+}
+
+@media screen and (max-width: 1200px) and (max-height: 650px) {
+  #poster {
+    background-image: url('../images/cameron-on-encryption.jpg');
+  }
+}
+
+@media screen and (max-width: 990px) and (max-height: 630px) {
+  #poster {
+    background-image: url('../images/gait-recog.jpg');
+  }
+}
+
+@media screen and (max-width: 1250px) and (max-height: 440px) {
+  #poster {
+    background-image: url('../images/we-give-you-the-power.jpg');
+  }
+}
+
+@media screen and (max-width: 830px) and (max-height: 710px) {
+  #poster {
+    background-image: url('../images/iran-music-blogger.jpg');
+  }
+}
+
+@media screen and (max-width: 750px) and (max-height: 710px) {
+  #poster {
+    background-image: url('../images/tweet-metadata.jpg');
+  }
+}
+
+@media screen and (max-width: 910px) and (max-height: 600px) {
+  #poster {
+    background-image: url('../images/internalized.jpg');
+  }
+}
+
+@media screen and (max-width: 1030px) and (max-height: 480px) {
+  #poster {
+    background-image: url('../images/touch-recog.jpg');
+  }
+}
+
+@media screen and (max-width: 890px) and (max-height: 550px) {
+  #poster {
+    background-image: url('../images/app-mike-access.jpg');
+  }
+}
+
+@media screen and (max-width: 790px) and (max-height: 550px) {
+  #poster {
+    background-image: url('../images/privacy-zuckering.jpg');
+  }
+}
+
+@media screen and (max-width: 760px) and (max-height: 530px) {
+  #poster {
+    background-image: url('../images/touch-choreograph.jpg');
+  }
+}
+
+@media screen and (max-width: 880px) and (max-height: 490px) {
+  #poster {
+    background-image: url('../images/stylograph.jpg');
+  }
+}
+
+@media screen and (max-width: 1120px) and (max-height: 400px) {
+  #poster {
+    background-image: url('../images/permanent-record.jpg');
+  }
+}
+
+@media screen and (max-width: 540px) and (max-height: 700px) {
+  #poster {
+    background-image: url('../images/third-parties.jpg');
+  }
+}
+
+@media screen and (max-width: 500px) and (max-height: 700px) {
+  #poster {
+    background-image: url('../images/you-cant-leave-this-empty.jpg');
+  }
+}
+
+@media screen and (max-width: 620px) and (max-height: 680px) {
+  #poster {
+    background-image: url('../images/number-of-clicks-emails.jpg');
+  }
+}
+
+@media screen and (max-width: 700px) and (max-height: 650px) {
+  #poster {
+    background-image: url('../images/suggested-that-you.jpg');
+  }
+}
+
+@media screen and (max-width: 690px) and (max-height: 600px) {
+  #poster {
+    background-image: url('../images/binary.jpg');
+  }
+}
+
+@media screen and (max-width: 560px) and (max-height: 650px) {
+  #poster {
+    background-image: url('../images/give-you-more-control.jpg');
+  }
+}
+
+@media screen and (max-width: 570px) and (max-height: 610px) {
+  #poster {
+    background-image: url('../images/country-or-jurisdiction.jpg');
+  }
+}
+
+@media screen and (max-width: 450px) and (max-height: 610px) {
+  #poster {
+    background-image: url('../images/protect-my-tweets.jpg');
+  }
+}
+
+@media screen and (max-width: 960px) and (max-height: 430px) {
+  #poster {
+    background-image: url('../images/mr-male.jpg');
+  }
+}
+
+@media screen and (max-width: 830px) and (max-height: 480px) {
+  #poster {
+    background-image: url('../images/big-data.jpg');
+  }
+}
+
+@media screen and (max-width: 770px) and (max-height: 500px) {
+  #poster {
+    background-image: url('../images/whats-your-name.jpg');
+  }
+}
+
+@media screen and (max-width: 1100px) and (max-height: 300px) {
+  #poster {
+    background-image: url('../images/browser-history.jpg');
+  }
+}
+
+@media screen and (max-width: 650px) and (max-height: 580px) {
+  #poster {
+    background-image: url('../images/web-pages-you-visit.jpg');
+  }
+}
+
+@media screen and (max-width: 1080px) and (max-height: 400px) {
+  #poster {
+    background-image: url('../images/biotrack.jpg');
+  }
+}
+
+@media screen and (max-width: 990px) and (max-height: 380px) {
+  #poster {
+    background-image: url('../images/cookies-to-give-you.jpg');
+  }
+}
+
+@media screen and (max-width: 840px) and (max-height: 300px) {
+  #poster {
+    background-image: url('../images/ask-for-work-info.jpg');
+  }
+}
+
+@media screen and (max-width: 750px) and (max-height: 300px) {
+  #poster {
+    background-image: url('../images/invite-your-friends.jpg');
+  }
+}
+
+@media screen and (max-width: 720px) and (max-height: 460px) {
+  #poster {
+    background-image: url('../images/who-can-see-my-stuff.jpg');
+  }
+}
+
+@media screen and (max-width: 880px) and (max-height: 240px) {
+  #poster {
+    background-image: url('../images/whats-on-your-mind.jpg');
+  }
+}
+
+@media screen and (max-width: 900px) and (max-height: 220px) {
+  #poster {
+    background-image: url('../images/suggest-friends.jpg');
+  }
+}
+
+@media screen and (max-width: 660px) and (max-height: 540px) {
+  #poster {
+    background-image: url('../images/let-facebook-upload-contacts.jpg');
+  }
+}
+
+@media screen and (max-width: 650px) and (max-height: 480px) {
+  #poster {
+    background-image: url('../images/what-city-are-you-from.jpg');
+  }
+}
+
+@media screen and (max-width: 560px) and (max-height: 490px) {
+  #poster {
+    background-image: url('../images/or-sign-in-with.jpg');
+  }
+}
+
+@media screen and (max-width: 600px) and (max-height: 460px) {
+  #poster {
+    background-image: url('../images/or-continue-with-facebook.jpg');
+  }
+}
+
+@media screen and (max-width: 500px) and (max-height: 570px) {
+  #poster {
+    background-image: url('../images/get-started-its-free.jpg');
+  }
+}
+
+@media screen and (max-width: 500px) and (max-height: 540px) {
+  #poster {
+    background-image: url('../images/sign-up-with-facebook.jpg');
+  }
+}
+
+@media screen and (max-width: 440px) and (max-height: 580px) {
+  #poster {
+    background-image: url('../images/health-data.jpg');
+  }
+}
+
+@media screen and (max-width: 550px) and (max-height: 450px) {
+  #poster {
+    background-image: url('../images/sign-up-for-free.jpg');
+  }
+}
+
+@media screen and (max-width: 500px) and (max-height: 400px) {
+  #poster {
+    background-image: url('../images/promote-safety-and-security.jpg');
+  }
+}
+
+@media screen and (max-width: 800px) and (max-height: 200px) {
+  #poster {
+    background-image: url('../images/you-do-have-to-fill-this-stuff-out-you-know.jpg');
+  }
+}
+
+@media screen and (max-width: 610px) and (max-height: 320px) {
+  #poster {
+    background-image: url('../images/join-with-facebook.jpg');
+  }
+}
+
+@media screen and (max-width: 400px) and (max-height: 800px) {
+  #poster {
+    background-image: url('../images/touch-id.jpg');
+  }
+}
+
+@media screen and (max-width: 500px) and (max-height: 300px) {
+  #poster {
+    background-image: url('../images/cookie-monster.jpg');
+  }
+}
